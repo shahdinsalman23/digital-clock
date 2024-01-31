@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
+@font-face {
+    font-family: stayclassy;
+    src: url(../digital-clock/fonts/StayClassyDuoScript.ttf);
+}
+@font-face {
+    font-family: eigha;
+    src: url(../digital-clock/fonts/eigha-demo.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: #000;
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.digital_clock{
+    background: #fff;
+    padding: 10px 10px;
+    width: 600px;
+    height: 600px;
+    border: 5px solid grey;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.time {
+    display: flex;
+    padding: 10px 20px;
+}
+
+.rightside {
+    display: flex;
+}
+
+span#seconds {
+    font-size: 51px;
+    margin: 0px 0px 0px 3px;
+}
+
+.leftside span {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 100px;
+}
+
+.rightside span {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 100px;
+}
+
+span#ampm {
+    margin: 0px 0px 0px 20px;
+}
+
+.dateday {
+    display: flex;
+    gap: 10px;
+}
+
+.date span {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+.day span {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+.digital_clock {
+    position: relative;
+    box-shadow: rgb(88 88 88) 0px 0px 6px 4px inset, rgb(112 112 112) -3px -3px 6px 1px inset;
+    background: grey;
+}
+
+.auther-name h1 {
+    font-family: stayclassy;
+    font-size: 50px;
+}
+
+.auther-name {
+    position: absolute;
+    top: 130px;
+}
+
+.digital-clock-head {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.digital-clock-head h1 {
+    color: #fff;
+    font-family: eigha;
+}
+
+.github-acc {
+    position: absolute;
+    bottom: 130px;
+}
+
+.github-acc h5 {
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    font-size: 21px;
+}
